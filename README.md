@@ -1,0 +1,5 @@
+# GH015_GLUON
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+This is the repository for the prototype gluon smart bed website which is still under devolopment.The backend programme is not yet coded.
+This website is not fully functional
+The actual website we are going to make may differ from the prototype.
