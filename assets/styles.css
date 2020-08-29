@@ -1,0 +1,284 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background: url('../assets/images/pexels-gustavo-fring-4149035.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100%;
+    
+}
+
+.navbar-class-container{
+    background-color: #86B8B3;
+    border-bottom: 2px solid #E2DEBE;
+
+}
+
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    width: 85%;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    padding: 0.8rem;
+}
+.navbar-brand:hover{
+    color: black;
+    cursor: pointer;
+  
+}
+
+.my-account-info{
+    
+    display: inline-block;
+    margin: 0;
+
+
+}
+.sign-in{
+    
+    display: inline-block;
+    border: 2px solid rgb(10, 1, 1);
+    background-color: orangered;
+    border-radius: .5rem;
+    padding: .3rem;
+    vertical-align: middle;
+    margin-right: 1rem;
+   
+    
+}
+.sign-in:hover{
+    box-shadow: 0 0 10px;
+    cursor: pointer;
+}
+
+.sign-up:hover{
+    box-shadow: 0 0 10px;
+    cursor: pointer;
+}
+.sign-up{
+    display: inline-block;
+    border: 2px solid rgb(1, 5, 2);
+    background-color: green;
+    border-radius: .5rem;
+    padding: .3rem;
+    vertical-align: middle;
+    
+}
+
+h6{
+    
+   margin-top: 10%;
+    
+    font-weight: bolder;
+    color: white;
+}
+
+
+
+.navbar{
+    background-color: rgb(5, 57, 105);
+    padding: .2rem;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    margin: 1rem;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.active{
+    color: coral;
+}
+
+
+
+.backdrop{
+
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(245, 232, 162, 0.2);
+}
+
+
+
+h4{
+    margin: 0;
+}
+
+.section-1{
+    text-align: center;
+}
+
+h1{
+    margin-top: 5.5rem;
+    
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-bottom: 0;
+    color: #0477bf;
+    transform: translateY(-1.9rem);
+}
+
+
+h5{
+    margin-top: 0;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3rem;
+}
+
+h2,h5{
+    color: black;
+}
+.login-cmp-box{
+    
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    z-index: 200;
+    opacity: 0;
+    transform: translateY(-10rem);
+    transition: opacity 1s, transform 1s ease-in-out; 
+   
+    text-align: left;
+    background-color: #04d4d9;
+
+    width: 24rem;
+    height: 30rem;
+    border: 2px solid blue;
+    border-radius: .5rem;
+    color: #fff;
+  
+}
+
+
+h3{
+    border: 2px solid black;
+    border-start-start-radius: .6rem;
+    background-color: #0477bf;
+    margin-top: 0;
+    text-align: center;
+    color: white;
+}
+
+
+label{
+    margin-top: 1px;
+    margin-left: 4rem;
+    margin-bottom: 0;
+    color: black;
+}
+
+input{
+    margin-left: 4rem;
+    list-style-type: none;
+    margin-bottom: 1rem;
+    width: 60%;
+}
+
+.submit{
+    width: 25%;
+    border-radius: 1.2rem;
+    margin-left: 4rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    background-color: rgb(95, 238, 51);
+    
+    
+}
+
+.submit:hover{
+    box-shadow: 0 0 10px;
+
+}
+
+
+.submit h4{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.cancel{
+    margin-left: 1rem;
+    background-color: orangered;
+}
+form a{
+    color: black;
+}
+
+form a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+.alert-section{
+
+   line-height: 2.5rem;
+   margin-top: 3rem;
+}
+p{
+    margin-left: 4rem;
+    margin-bottom: 0;
+    color: black;
+}
+.login-button{
+    width: 20rem;
+    height: 4rem;
+    border: 3px solid white;
+    border-radius: 2.2rem;
+    font-size: 1.8rem;
+  
+    margin-top: 10rem;
+    display: block;
+    background-color: #98DEE6;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-button:hover{
+    background-color: #DEF3F8;
+    color : #0477bf;
+    border: 3px solid #0477bf;
+    box-shadow: 0 0 10px;
+}
+
+
+.open{
+    display: block !important;
+    
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+
+.navbar-class-container{
+    background-color: #86B8B3;
+
+}
+
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    width: 94%;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    padding: 0.8rem;
+}
+
+.navbar-brand:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.my-account-info{
+    width: 3rem;
+    display: inline-block;
+ }
+ .account-holder-image{
+     width: 100%;
+ }
+ 
+ 
+ .navbar{
+     background-color: #DAF8F8;
+     padding: .2rem;
+ }
+ 
+ ul{
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+ }
+ 
+ li{
+     display: inline-block;
+     margin: 1rem;
+     transform: translateX(22.5rem);
+ 
+ 
+ }
+ 
+ a{
+     text-decoration: none;
+     color: #479184;
+     font-weight: bold;
+ }
+ 
+ .active{
+     color: coral;
+ }
+h2{
+    text-align: center;
+}
+
+section{
+    display: flex;
+}
+.containerimg{
+    width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.containerimg img{
+    width: 100%;
+}
+
+.main-1{
+    background-color: #83f5f5;
+    width:25%;
+    height: auto;
+
+}
+
+.main-1 p{
+    font-size: 1.6rem;
+    margin-left: 2.5rem;
+}
+
+.main-2{
+    background-color: white;
+    width: 50%;
+
+
+}
+
+.main-3{
+    background-color: #CFCFCF;
+    width: 25%;
+
+}
+
+p{
+    font-weight: bolder;
+}
+
+.india{
+    font-size: 2rem;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid black;
+}
+
+.active2, .recovered, .mortality{
+    margin-left: 1.5rem;
+}
+.links{
+    display: block;
+    
+}
+
+.links a{
+    color: rgb(59, 19, 19);
+    font-weight: bolder;
+}
+footer{
+    background-color: rgb(20, 16, 16);
+    text-align: center;
+    padding-bottom: 3rem;
+    margin-top: 1rem;
+}
+footer h5{
+    padding: 0.7rem;
+    font-size: 0.9rem;
+    display: inline-block;
+    color: #CCC;
+    
+   
+}
+
+.Email, .Facebook, .LinkedIn{
+    border-right: 1px solid #CCC;
+}
+footer h6{
+    
+    font-size: 0.7rem;
+    color: #EEE;
+    transform: translateY(2.8rem);   
+
+}

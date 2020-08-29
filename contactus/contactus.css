@@ -1,0 +1,248 @@
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+.navbar-class-container{
+    background-color: #86B8B3;
+
+}
+
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    width: 94%;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    padding: 0.8rem;
+}
+
+
+.navbar-brand:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.my-account-info{
+   width: 3rem;
+   display: inline-block;
+}
+.account-holder-image{
+    width: 100%;
+}
+
+
+.navbar{
+    background-color: #DAF8F8;
+    padding: .4rem;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    margin: 1rem;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: #479184;
+    font-weight: bold;
+}
+
+.active{
+    color: coral;
+}
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    margin: .7rem;
+
+}
+
+a{
+    text-decoration: none;
+    color: #479184;
+}
+
+h1, h2, h3{
+    text-align: center;
+
+}
+h1{
+    margin-top: .5rem;
+}
+
+.container-box{
+    margin-top: 1.5rem;
+    width: 18rem;
+    height: 30rem;
+    border: 2px solid black;
+  
+    background-color: #FFE77AFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-box:hover{
+    box-shadow:0 0 10px;
+}
+
+form * {
+    margin-left: 1.8rem;
+}
+label{
+    color: #2C5F2DFF;
+    margin-left: 0.3rem;
+    margin-top: 0.55rem;
+}
+.submit{
+    margin: 0;
+    background-color: #2C5F2DFF;
+    border-radius: .5rem;
+    color: #FFE77AFF;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: #FFE77AFF;
+    color: #2C5F2DFF;
+    box-shadow: 0 0 10px;
+}
+
+p{
+    font-weight: bolder;
+}
+main{
+    display: flex;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin-top: 1rem;
+    
+
+}
+section{
+    display: flex;
+    border-bottom: 2px solid black;
+  
+    background-color:#CFCFCF;
+ 
+}
+
+.main-1{
+    width: 30%;
+    text-align: left;
+    border-right: 2px solid black;
+    
+    background-color: #2db693;
+   
+   
+}
+.main-2{
+    width: 40%;
+    text-align: center;
+    border-right: 2px solid black;
+    background-color: #DAF8F8;
+}
+.main-3{
+    width: 30%;
+    text-align: left;
+    
+    background-color: rosybrown;
+
+}
+.my-account-info-2{
+    width: 5rem;
+  
+    background-color: white;
+}
+.my-account-info-2 img{
+    transform: translateY(1rem);
+}
+.inputclass{
+    width: 50%;
+    margin-left: 5rem;
+}
+
+.card1{
+    width: auto;
+}
+
+.bedid{
+    margin-left: 2rem;
+}
+
+.temppulse-container{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   
+}
+.temp{
+    width: 40%;
+    height: 16rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+
+}
+.pulse2{
+    width: 40%;
+    height: 16rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+.description{
+    background-color: #93dfdf;
+    margin-top: 1rem;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.description p{
+    margin-left: .8rem;
+    margin-top: .8rem;
+}
+footer{
+    background-color: rgb(20, 16, 16);
+    text-align: center;
+    padding-bottom: 3rem;
+    margin-top: 1rem;
+}
+footer h5{
+    padding: 0.7rem;
+    font-size: 0.9rem;
+    display: inline-block;
+    color: #CCC;
+    
+   
+}
+
+.Email, .Facebook, .LinkedIn{
+    border-right: 1px solid #CCC;
+}
+footer h6{
+    
+    font-size: 0.7rem;
+    color: #EEE;
+    transform: translateY(2.8rem);   
+
+}
+
+   

@@ -1,0 +1,23 @@
+{
+    "name": "smartproject",
+    "version": "0.0.1",
+    "description": "this is a prototype",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/angith-anmesrisha/gechack.git"
+    },
+    "author": "Angith V Shaji,Govind S L,Basil Pathrose",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/angith-anmesrisha/gechack/issues"
+    },
+    "homepage": "https://github.com/angith-anmesrisha/gechack#readme",
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+  
