@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+}
+
+.navbar-class-container{
+    background-color: #8a4b4b;
+
+}
+
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    width: 94%;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    padding: 0.8rem;
+}
+.navbar-brand:hover{
+    color:black;
+    cursor:pointer;
+}
+.my-account-info{
+   width: 3rem;
+   display: inline-block;
+}
+.account-holder-image{
+    width: 100%;
+}
+
+
+.navbar{
+    background-color: rgb(5, 57, 105);
+    padding: .2rem;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    margin: 1rem;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.active{
+    color: coral;
+}
+
+
+section{
+    display: flex;
+}
+.section-left{
+    background-color: rgb(85, 168, 223);
+    width: 30%;
+    height: 84vh;
+    border-bottom-right-radius: 5rem;
+    margin-left: 0;
+    position: absolute;
+    left: 0;
+}
+
+.ID-search-container{
+   margin-top: .06rem;
+    border-bottom: 3.5px solid black;
+}
+
+
+label{
+    font-weight: bolder;
+    margin-left: 1.8rem;
+}
+
+input{
+    margin-bottom: 0.6rem;
+    margin-left: 1.5rem;
+    border-radius: 0.8rem;
+}
+
+.find-patients>div{
+    border-bottom: 1.5px solid black;
+    font-weight: bold;
+    line-height: 2.4rem;
+}
+
+.section-find-patients{
+    margin-left: 1rem;
+  }
+ .section-A{
+    margin-left: 2rem;
+ }
+ .section-floors{
+     margin-left: 2.5rem;
+ }
+ .section-0,.section-1{
+     margin-left: 3rem;
+ }
+ .section-rooms{
+     margin-left: 3.5rem;
+ }
+ form{
+     border-bottom: 1.5px solid black;
+ }
+
+.section-right{
+    background-color: rgb(236, 241, 243);
+    position: absolute;
+    right: 0;
+    width: 70%;
+}
+
+.room-details{
+    border-bottom: 2px solid rgb(41, 41, 153);
+    padding-bottom: .7rem;
+  
+}
+
+h2{
+    margin-top: 1rem;
+    text-align: center;
+    color: rgb(8, 8, 138);
+}
+.patients-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-top: 1.9px solid rgb(41, 41, 153);
+    border-bottom: 3.5px solid rgb(41, 41, 153);
+}
+.patients-details-box{
+    text-align: center;
+    font-weight: 200;
+    width: 12.5rem;
+    height: 7rem;
+   
+    margin: 3rem;
+    margin-top: 5rem;
+    border: 3px solid black;
+    border-radius: 1.5rem;
+}
+
+.patients-details-box:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px;
+}
+.red{
+    background-color: rgb(209, 8, 8);
+}
+
+.orange{
+    background-color: orange;
+}
+.grey{
+    background-color: grey;
+}
+
+.green{
+    background-color: green;
+}
+
+.tooltip-container{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 6rem;
+   
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.tooltip{
+    
+   
+    height: 6rem;
+    width: 12.5rem;
+    background-color: red;
+    margin-right: 4rem;
+    margin-top: 5rem;
+    
+}
+
+.tooltip h5{
+    margin: 0;
+    padding: 0;
+}
+
+.tooltip h6{
+    
+    margin: 0;
+    padding: 0;
+}
+.tooltip1{
+    transform: translate(0rem, -7.6rem);
+}
+.tooltip2{
+    transform: translate(2.2rem, -7.6rem);
+}
+
+.tooltip3{
+    transform: translate(3.9rem, -7.6rem);
+}
+
+.tooltip4{
+    transform: translate(0rem, -3.8rem);
+}
+
+
+.tooltip5{
+    transform: translate(2rem, -3.8rem);
+}
+
+
+.tooltip6{
+    transform: translate(4rem, -3.8rem);
+}
+
+
+.tooltip7{
+    transform: translate(0rem, 0rem);
+}
+
+
+.tooltip8{
+    transform: translate(2rem, 0rem);
+}
+
+
+.tooltip9{
+    transform: translate(4rem, 0rem);
+}

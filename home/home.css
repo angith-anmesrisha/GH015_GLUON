@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+}
+
+.navbar-class-container{
+    background-color: #8a4b4b;
+
+}
+
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    width: 94%;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    padding: 0.8rem;
+}
+
+.my-account-info{
+   width: 3rem;
+   display: inline-block;
+}
+.account-holder-image{
+    width: 100%;
+}
+
+
+.navbar{
+    background-color: rgb(5, 57, 105);
+    padding: .2rem;
+  
+}
+.nav-icons{
+    transform: translate(135%);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+   
+}
+
+li{
+  
+    display: inline-block;
+    margin: 1rem;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-class-container{
+    background-color: #8a4b4b;
+
+}
+
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    width: 94%;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    padding: 0.8rem;
+}
+.navbar-brand:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.my-account-info{
+   width: 3rem;
+   display: inline-block;
+}
+.account-holder-image{
+    width: 100%;
+}
+
+
+.navbar{
+    background-color: rgb(5, 57, 105);
+    padding: .2rem;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    margin: 1rem;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(247, 234, 234);
+}
+
+.active{
+    color: coral;
+}
+
+main{
+    background-color: rgb(157, 157, 216);
+   
+    
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3,h4{
+    margin: 0;
+    padding: 0;
+    color: rgb(14, 1, 1);
+}
+
+.alert{
+    width: 50%;
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    background-color: rgb(23, 10, 202);
+    
+}
+
+button h4{
+    color: rgb(197, 182, 182);
+}
+
+strong a{
+    text-decoration: none;
+}
+strong a:hover{
+    color: rgb(235, 164, 164);
+    text-decoration: none;
+   
+    
+}
+
+section{
+    width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.carousel-item{
+    height: 20rem;
+    width: 40rem;
+    background-color: rgb(162, 172, 126);
+    
+ }
+
+ .carousel-caption{
+   transform: translateY(-4rem);
+ }
+
+ 
+ 
+ #carouselExampleIndicators{
+    margin-top: 1.3rem;
+ }
+

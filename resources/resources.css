@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+.navbar-class-container{
+    background-color: #8a4b4b;
+
+}
+
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    width: 94%;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    padding: 0.8rem;
+}
+
+.navbar-brand:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.my-account-info{
+   width: 3rem;
+   display: inline-block;
+}
+.account-holder-image{
+    width: 100%;
+}
+
+
+.navbar{
+    background-color: rgb(5, 57, 105);
+    padding: .2rem;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    margin: 1rem;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.active{
+    color: coral;
+}  
+h2{
+    text-align: center;
+}
+
+
+
